@@ -23,4 +23,4 @@ jobs:
       - name: Build PlatformIO Project
         run: pio run
       - name: Run Tests
-        run: pio test --environment disco_f072rb --without-uploading -vvv
+        run: pio test --environment disco_renode --without-uploading -vvv

@@ -10,6 +10,7 @@
             "includePath": [
                 "D:/Master/FALL_2023/ECE-6960-AES/PlatformIO/lab4/include",
                 "D:/Master/FALL_2023/ECE-6960-AES/PlatformIO/lab4/src",
+                "D:/Master/FALL_2023/ECE-6960-AES/PlatformIO/lab4/.pio/libdeps/disco_board/Unity/src",
                 "C:/Users/wlsnm/.platformio/packages/framework-zephyr/include",
                 "D:/Master/FALL_2023/ECE-6960-AES/PlatformIO/lab4/.pio/build/disco_board/zephyr/include/generated",
                 "C:/Users/wlsnm/.platformio/packages/framework-zephyr/soc/arm/st_stm32/stm32f0",
@@ -27,6 +28,7 @@
                 "path": [
                     "D:/Master/FALL_2023/ECE-6960-AES/PlatformIO/lab4/include",
                     "D:/Master/FALL_2023/ECE-6960-AES/PlatformIO/lab4/src",
+                    "D:/Master/FALL_2023/ECE-6960-AES/PlatformIO/lab4/.pio/libdeps/disco_board/Unity/src",
                     "C:/Users/wlsnm/.platformio/packages/framework-zephyr/include",
                     "D:/Master/FALL_2023/ECE-6960-AES/PlatformIO/lab4/.pio/build/disco_board/zephyr/include/generated",
                     "C:/Users/wlsnm/.platformio/packages/framework-zephyr/soc/arm/st_stm32/stm32f0",

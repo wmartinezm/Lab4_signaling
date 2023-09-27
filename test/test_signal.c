@@ -146,6 +146,7 @@ int signal_request_calculate(struct k_sem *request,
 int main (void)
 {
     UNITY_BEGIN();
+    RUN_TEST(test_request);
     RUN_TEST(test_noop);
     RUN_TEST(test_out_of_order);
     RUN_TEST(test_noone_home);
