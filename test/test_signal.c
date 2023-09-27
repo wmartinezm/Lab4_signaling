@@ -127,12 +127,14 @@ void signal_handle_calculation(struct k_sem *request,
                                struct k_sem *response,
                                struct signal_data *data)
 {
+    while(1){
     printf("+ Waiting for request\n");
     k_sem_take(request, K_FOREVER);
     printf("+ Handling calculation\n");
     data->output = data->input + 5;
     k_sem_give(response);
     printf("+ Done with calculation\n");
+    }
 }
 
 int signal_request_calculate(struct k_sem *request,
