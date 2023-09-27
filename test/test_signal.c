@@ -127,14 +127,20 @@ void signal_handle_calculation(struct k_sem *request,
                                struct k_sem *response,
                                struct signal_data *data)
 {
-
+    k_sem_take(&request, K_MSEC(1000));
+    data->output = data->input + 5;
+    k_sem_give(&response);
 }
 
 int signal_request_calculate(struct k_sem *request,
                              struct k_sem *response,
                              struct signal_data *data)
 {
-    
+    k_sem_give(&request);
+    if (k_sem_take(&response))
+    return 0;
+    else
+    return 1;
 }
 
 int main (void)
