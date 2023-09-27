@@ -11,7 +11,7 @@
                 "D:/Master/FALL_2023/ECE-6960-AES/PlatformIO/lab4/include",
                 "D:/Master/FALL_2023/ECE-6960-AES/PlatformIO/lab4/src",
                 "C:/Users/wlsnm/.platformio/packages/framework-zephyr/include",
-                "D:/Master/FALL_2023/ECE-6960-AES/PlatformIO/lab4/.pio/build/disco_f072rb/zephyr/include/generated",
+                "D:/Master/FALL_2023/ECE-6960-AES/PlatformIO/lab4/.pio/build/disco_board/zephyr/include/generated",
                 "C:/Users/wlsnm/.platformio/packages/framework-zephyr/soc/arm/st_stm32/stm32f0",
                 "C:/Users/wlsnm/.platformio/packages/framework-zephyr/drivers",
                 "C:/Users/wlsnm/.platformio/packages/framework-zephyr/soc/arm/st_stm32/common",
@@ -28,7 +28,7 @@
                     "D:/Master/FALL_2023/ECE-6960-AES/PlatformIO/lab4/include",
                     "D:/Master/FALL_2023/ECE-6960-AES/PlatformIO/lab4/src",
                     "C:/Users/wlsnm/.platformio/packages/framework-zephyr/include",
-                    "D:/Master/FALL_2023/ECE-6960-AES/PlatformIO/lab4/.pio/build/disco_f072rb/zephyr/include/generated",
+                    "D:/Master/FALL_2023/ECE-6960-AES/PlatformIO/lab4/.pio/build/disco_board/zephyr/include/generated",
                     "C:/Users/wlsnm/.platformio/packages/framework-zephyr/soc/arm/st_stm32/stm32f0",
                     "C:/Users/wlsnm/.platformio/packages/framework-zephyr/drivers",
                     "C:/Users/wlsnm/.platformio/packages/framework-zephyr/soc/arm/st_stm32/common",
@@ -56,7 +56,7 @@
             ],
             "cStandard": "c99",
             "forcedInclude": [
-                "D:/Master/FALL_2023/ECE-6960-AES/PlatformIO/lab4/.pio/build/disco_f072rb/zephyr/include/generated/autoconf.h",
+                "D:/Master/FALL_2023/ECE-6960-AES/PlatformIO/lab4/.pio/build/disco_board/zephyr/include/generated/autoconf.h",
                 "C:/Users/wlsnm/.platformio/packages/framework-zephyr/include/toolchain/zephyr_stdint.h",
                 ""
             ],

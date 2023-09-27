@@ -123,6 +123,20 @@ void test_out_of_order(void)
     k_thread_abort(&coop_thread);
 }
 
+void signal_handle_calculation(struct k_sem *request,
+                               struct k_sem *response,
+                               struct signal_data *data)
+{
+
+}
+
+int signal_request_calculate(struct k_sem *request,
+                             struct k_sem *response,
+                             struct signal_data *data)
+{
+    
+}
+
 int main (void)
 {
     UNITY_BEGIN();
