@@ -22,6 +22,10 @@
                 "C:/Users/wlsnm/.platformio/packages/framework-zephyr/_pio/modules/hal/stm32/stm32cube/stm32f0xx/drivers/include",
                 "C:/Users/wlsnm/.platformio/packages/framework-zephyr/_pio/modules/hal/stm32/stm32cube/stm32f0xx/drivers/include/Legacy",
                 "C:/Users/wlsnm/.platformio/packages/framework-zephyr/_pio/modules/hal/stm32/stm32cube/common_ll/include",
+                "D:/Master/FALL_2023/ECE-6960-AES/PlatformIO/lab4/lib/fifo/include",
+                "D:/Master/FALL_2023/ECE-6960-AES/PlatformIO/lab4/lib/fifo/src",
+                "D:/Master/FALL_2023/ECE-6960-AES/PlatformIO/lab4/lib/signaling/include",
+                "D:/Master/FALL_2023/ECE-6960-AES/PlatformIO/lab4/lib/signaling/src",
                 ""
             ],
             "browse": {
@@ -41,6 +45,10 @@
                     "C:/Users/wlsnm/.platformio/packages/framework-zephyr/_pio/modules/hal/stm32/stm32cube/stm32f0xx/drivers/include",
                     "C:/Users/wlsnm/.platformio/packages/framework-zephyr/_pio/modules/hal/stm32/stm32cube/stm32f0xx/drivers/include/Legacy",
                     "C:/Users/wlsnm/.platformio/packages/framework-zephyr/_pio/modules/hal/stm32/stm32cube/common_ll/include",
+                    "D:/Master/FALL_2023/ECE-6960-AES/PlatformIO/lab4/lib/fifo/include",
+                    "D:/Master/FALL_2023/ECE-6960-AES/PlatformIO/lab4/lib/fifo/src",
+                    "D:/Master/FALL_2023/ECE-6960-AES/PlatformIO/lab4/lib/signaling/include",
+                    "D:/Master/FALL_2023/ECE-6960-AES/PlatformIO/lab4/lib/signaling/src",
                     ""
                 ]
             },
