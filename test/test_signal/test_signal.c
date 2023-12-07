@@ -123,45 +123,12 @@ void test_out_of_order(void)
     k_thread_abort(&coop_thread);
 }
 
-void signal_handle_calculation(struct k_sem *request,
-                               struct k_sem *response,
-                               struct signal_data *data)
-{
-    while(1){
-    printf("+ Waiting for request\n");
-    k_sem_take(request, K_FOREVER);
-    printf("+ Handling calculation\n");
-    data->output = data->input + 5;
-    k_sem_give(response);
-    printf("+ Done with calculation\n");
-    }
-}
-
-int signal_request_calculate(struct k_sem *request,
-                             struct k_sem *response,
-                             struct signal_data *data)
-{
-    printf("- Handoff to worker\n");
-    k_sem_give(request);
-    printf("- Waiting for results\n");
-    if (!k_sem_take(response, K_MSEC(1000)))
-    {
-         printf("- Result ready\n");
-        return 0;
-    }
-    
-    else{
-         printf("- Result failed\n");
-        return 1;
-    }
-}
-
 int main (void)
 {
     UNITY_BEGIN();
     RUN_TEST(test_request);
-    //RUN_TEST(test_noop);
-    //RUN_TEST(test_out_of_order);
-    //RUN_TEST(test_noone_home);
+    RUN_TEST(test_noop);
+    RUN_TEST(test_out_of_order);
+    RUN_TEST(test_noone_home);
     return UNITY_END();
 }
